@@ -39,8 +39,7 @@ def show_banner():
     print(Fore.CYAN + "Website Recon Tool — Created by Darius")
     print(Fore.LIGHTBLACK_EX + f"Data: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(Fore.YELLOW + "-"*40)
-    print(Fore.BLUE + "Inicializando módulos...
-")
+    print(Fore.BLUE + "Inicializando módulos...\n")
 
 def whois_lookup(domain):
     try:
